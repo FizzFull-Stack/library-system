@@ -18,7 +18,7 @@ export default function Home() {
 
     const supabase = createClient();
 
-    const email = `s${nis}@gmail.com`;
+    const email = `siswa${nis}@gmail.com`;
     const password = nis;
 
     const { error: loginError } = await supabase.auth.signInWithPassword({
